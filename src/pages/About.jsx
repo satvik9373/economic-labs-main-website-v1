@@ -6,50 +6,7 @@ function App() {
   return (
     <div>
       {/* Navigation Bar */}
-      <nav className="nav">
-        <div className="nav-container">
-          <div className="nav-content">
-            <div className="nav-left">
-              <img src="https://unstop.com/images/unstop-logo.svg" alt="Unstop" className="logo" />
-              <div className="search-container">
-                <div className="search-box">
-                  <Search size={20} color="#9CA3AF" />
-                  <input
-                    type="text"
-                    placeholder="Search Opportunities"
-                    className="search-input"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className="nav-right">
-              <nav className="nav-links">
-                <a href="#" className="nav-link">Internships</a>
-                <a href="#" className="nav-link">Jobs</a>
-                <a href="#" className="nav-link">Competitions</a>
-                <a href="#" className="nav-link">Mentorships</a>
-                <a href="#" className="nav-link">Practice</a>
-                <a href="#" className="nav-link">More</a>
-              </nav>
-
-              <button className="icon-button">
-                <Bell size={20} color="#4B5563" />
-              </button>
-              <div className="avatar">
-                <span>U</span>
-              </div>
-              <button className="host-button">
-                Host
-              </button>
-              <button className="business-button">
-                For Business
-              </button>
-            </div>
-          </div>
-        </div>
-      </nav>
-
+     
       {/* Main Content */}
       <main className="main">
         <div className="main-container">
@@ -60,7 +17,7 @@ function App() {
                 <Sparkles className="sparkle sparkle-top" size={32} />
                 <Sparkles className="sparkle sparkle-bottom" size={32} />
                 <h2 className="message-title">Economic labs</h2>
-                <p className="hashtag">#BeUnstoppable</p>
+                <p className="hashtag">#Consistency</p>
               </div>
             </div>
 
