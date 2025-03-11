@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className="nav-right">
             <div className="nav-tabs">
               <div className="learn-tab">
-                <NavLink to={"/courses"}>
+                <NavLink to={"https://lms-websitee.vercel.app/"}>
                   <span className="tab-icon"></span>
                   <span className="tab-name">learn</span>
                 </NavLink>
