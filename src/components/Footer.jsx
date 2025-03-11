@@ -61,37 +61,7 @@ const Footer = () => {
     },
   ];
 
-  const participate = [
-    {
-      name: "competitions & challenges",
-      link: "https://Economic Labs.com/competitions",
-    },
-    {
-      name: "quizzes",
-      link: "https://Economic Labs.com/quizzes",
-    },
-    {
-      name: "hackathons",
-      link: "https://Economic Labs.com/hackathons",
-    },
-    {
-      name: "workshops & webinars",
-      link: "https://Economic Labs.com/workshops",
-    },
-    {
-      name: "conferences",
-      link: "https://Economic Labs.com/conferences",
-    },
-    {
-      name: "cultural events",
-      link: "https://Economic Labs.com/creative-cultural-events",
-    },
-    {
-      name: "college festivals",
-      link: "https://Economic Labs.com/college-fests",
-    },
-  ];
-
+ 
   const apply = [
     {
       name: "internships",
@@ -359,42 +329,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="footer-participate-apply">
-                <div className="footer-participate">
-                  <h4>participate</h4>
-                  <div className="footer-participate-links links-cont">
-                    {participate.map((ele) => {
-                      return (
-                        <a
-                          href={ele.link}
-                          target="_blank"
-                          rel="noreferrer"
-                          key={ele.name}
-                        >
-                          {ele.name}
-                        </a>
-                      );
-                    })}
-                  </div>
-                </div>
-                <div className="footer-apply">
-                  <h4>apply</h4>
-                  <div className="footer-apply-links links-cont">
-                    {apply.map((ele) => {
-                      return (
-                        <a
-                          href={ele.link}
-                          target="_blank"
-                          rel="noreferrer"
-                          key={ele.name}
-                        >
-                          {ele.name}
-                        </a>
-                      );
-                    })}
-                  </div>
-                </div>
-              </div>
+             
               <div className="footer-learn-practice">
                 <div className="footer-learn">
                   <h4>learn</h4>
@@ -413,23 +348,7 @@ const Footer = () => {
                     })}
                   </div>
                 </div>
-                <div className="footer-practice">
-                  <h4>practice</h4>
-                  <div className="footer-practice-links links-cont">
-                    {practice.map((ele) => {
-                      return (
-                        <a
-                          href={ele.link}
-                          target="_blank"
-                          rel="noreferrer"
-                          key={ele.name}
-                        >
-                          {ele.name}
-                        </a>
-                      );
-                    })}
-                  </div>
-                </div>
+               
               </div>
             </div>
             <div className="footer-right-bottom">

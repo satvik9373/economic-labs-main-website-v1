@@ -59,24 +59,22 @@ function App() {
               <div className="message-card">
                 <Sparkles className="sparkle sparkle-top" size={32} />
                 <Sparkles className="sparkle sparkle-bottom" size={32} />
-                <h2 className="message-title">Unstop believes that you can</h2>
+                <h2 className="message-title">Economic labs</h2>
                 <p className="hashtag">#BeUnstoppable</p>
               </div>
             </div>
 
             {/* Right side with content */}
             <div className="right-content">
-              <h1>Unstop</h1>
+              <h1>Economics Labs</h1>
               <p>
-                derived from the belief to #BeUnstoppable, is a community engagement and hiring platform for students and freshers where talent meets opportunities.
+              Economic Labs is a dynamic platform designed to bridge the gap between academia and industry by empowering students, colleges, and companies. Founded with a vision to create a future-ready workforce, we focus on providing students with opportunities to up skill, gain real-world experience, and connect with industry professionals globally.
               </p>
               
-              <p>
-                Founded by <span className="highlight">Ankit Aggarwal</span>, Unstop is a playground for this talent to learn, upskill, showcase their skills, gain CV points and get hired while unlocking their true potential throughout their academic journey. This enables them to eventually get hired by their dream employers and start their career journey. The platform connects students across domains in INDIA to a world of opportunities across the GLOBE. Unstop currently has a community of <span className="highlight">21 Million+</span> Students and Freshers.
-              </p>
+             
 
               <p>
-                Unstop has been chosen by major brands such as Amazon, Flipkart, HUL, Reliance, Tata, Mahindra, Uber, Accenture, Infosys, EY, PwC, and many others for their early talent recruitment needs. These companies interact with students and early professionals at Unstop and leverage the platform's expertise to build their dream teams.
+We believe in fostering a collaborative ecosystem where students can learn, showcase their talents, and secure paid internships, while colleges and companies benefit from fresh, innovative talent. Our mission is to transform the traditional education-to-employment pathway by making it more practical, engaging, and accessible for everyone involved.
               </p>
             </div>
           </div>
